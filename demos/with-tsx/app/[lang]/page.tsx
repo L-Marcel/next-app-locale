@@ -9,7 +9,7 @@ export default function Home() {
       <section>
         <q>{content.section.content}</q>
         {content.section.paragraph}
-        <a href="">{content.section.link}</a>
+        <a href="https://github.com/L-Marcel/next-app-locale/tree/main/demos">{content.section.link}</a>
         <p>{content.section.time}</p>
       </section>
     </main>

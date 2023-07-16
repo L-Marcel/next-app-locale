@@ -9,7 +9,7 @@ export const enUs = {
     section: {
       content: "A simple way to create pages made for different locales in Next (with App Directory)!",
       paragraph: <p>
-        You can retrieve translations from <span>.json</span>, <span>.ts</span>, or even <span>.tsx</span> files! See more examples at:,
+        You can retrieve translations from <span>.json</span>, <span>.ts</span>, or even <span>.tsx</span> files! See more examples at:
       </p>,
       link: "Demonstrations!",
       time: `Today is: ${dayjs().format("MMMM D, YYYY - h A")}!`
