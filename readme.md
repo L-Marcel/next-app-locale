@@ -241,5 +241,5 @@ export default function RootLayout({
 
 # Demonstrations
 See some demos:
-- [with-json](#) / [code](#)
-- [with-tsx](#) / [code](#)
+- [with-json](#) / [code](#https://github.com/L-Marcel/next-app-locale/tree/main/demos/with-json)
+- [with-tsx](#) / [code](#https://github.com/L-Marcel/next-app-locale/tree/main/demos/with-tsx)

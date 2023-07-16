@@ -1,6 +1,6 @@
 /** @type {import('next').NextConfig} */
 
-//with not config!
+//with not additional config!
 const nextConfig = {};
 
 module.exports = nextConfig;

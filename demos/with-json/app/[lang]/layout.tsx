@@ -4,7 +4,7 @@ import { Roboto } from "next/font/google";
 import { translator } from '@/services/Translator';
 import { LocaleSwitcher } from '../../components/LocaleSwitcher/index';
 
-export const roboto = Roboto({ 
+const roboto = Roboto({ 
   subsets: ['latin'],
   style: ['italic', 'normal'],
   weight: ["300", "400", "500", "700", "900"],
