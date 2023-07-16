@@ -12,7 +12,7 @@ export const ptBr = {
         Você pode recuperar traduções de arquivos <span>.json</span>, <span>.ts</span>, ou até <span>.tsx</span>! Veja mais exemplos em:
       </p>,
       link: "Demonstrações!",
-      time: `Isso foi atualizado em: ${dayjs().format("D [de] MMMM [de] YYYY - H [horas]")}!`
+      time: `Isso foi atualizado em: ${dayjs().format("D [de] MMMM [de] YYYY - H [horas]")} (horário do servidor)!`
     }
   },
   header: {
