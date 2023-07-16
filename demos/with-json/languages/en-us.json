@@ -1,0 +1,14 @@
+{
+  "home": {
+    "language": "English",
+    "section": {
+      "content": "A simple way to create pages made for different locales in Next (with App Directory)!",
+      "paragraph": "You can retrieve translations from .json, .ts, or even .tsx files! See more examples at:",
+      "link": "Demonstrations!"
+    }
+  },
+  "header": {
+    "pt": "Português",
+    "en": "English"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "home": {
+    "language": "Português",
+    "section": {
+      "content": "Uma forma simples de criar páginas feitas para localidades diferentes no Next (com o diretório App)!",
+      "paragraph": "Você pode recuperar traduções de arquivos .json, .ts, ou até .tsx! Veja mais exemplos em:",
+      "link": "Demonstrações!"
+    }
+  },
+  "header": {
+    "pt": "Português",
+    "en": "English"
+  }
+}

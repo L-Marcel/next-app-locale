@@ -1,0 +1,40 @@
+.button_group {
+  display: flex;
+  border-radius: 8px;
+  margin-left: 3.8rem;
+  overflow: hidden;
+  height: max-content;
+  width: min-content;
+  background-color: var(--green);
+
+  li {
+    list-style: none;
+  }
+
+  a:focus-visible {
+    outline: none;
+    border: none;
+  }
+
+  button {
+    font-family: var(--font-lato);
+    background-color: var(--green-google);
+    border: 0;
+    height: 20px;
+    padding: 8px 18px;
+
+    &:hover {
+      background-color: var(--green);
+      cursor: pointer;
+    }
+
+    &:disabled {
+      background-color: var(--green);
+      cursor: default;
+    }
+  }
+
+  &:focus-within {
+    outline: auto;
+  }
+}

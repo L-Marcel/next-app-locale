@@ -1,0 +1,12 @@
+.main {
+  display: flex;
+  flex-direction: column;
+  padding: 1.8rem 3.8rem;
+  height: 100%;
+
+  section {
+    gap: 0.9rem;
+    display: flex;
+    flex-direction: column;
+  }
+}
