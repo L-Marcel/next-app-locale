@@ -12,7 +12,7 @@ export const enUs = {
         You can retrieve translations from <span>.json</span>, <span>.ts</span>, or even <span>.tsx</span> files! See more examples at:
       </p>,
       link: "Demonstrations!",
-      time: `Today is: ${dayjs().format("MMMM D, YYYY - h A")}!`
+      time: `This was updated in: ${dayjs().format("MMMM D, YYYY - h A")}!`
     }
   },
   header: {
