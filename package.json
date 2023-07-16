@@ -1,6 +1,6 @@
 {
   "name": "next-app-locale",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "",
   "main": "dist/index.js",
   "tsup": {
@@ -18,7 +18,12 @@
     "versions": "changeset version",
     "publish": "changeset publish"
   },
-  "keywords": [],
+  "keywords": [
+    "next",
+    "locale",
+    "localization",
+    "i18n"
+  ],
   "author": "",
   "license": "ISC",
   "devDependencies": {
