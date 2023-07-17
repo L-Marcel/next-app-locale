@@ -13,10 +13,13 @@ export const ptBr = {
       </p>,
       link: "Demonstrações!",
       time: `Isso foi atualizado em: ${dayjs().format("D [de] MMMM [de] YYYY - H [horas]")} (horário do servidor)!`
+    },
+    route: {
+      link: "Ir para outra rota"
     }
   },
-  header: {
-    pt: "Português",
-    en: "English"
+  "another-route": {
+    title: "Outra rota",
+    link: "Voltar para a página inicial"
   }
 };

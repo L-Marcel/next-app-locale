@@ -145,57 +145,45 @@ export default function Home() {
 ```
 
 # Changing the locale
-To change the locale, first create a component that takes lang as a parameter that is received in the layout (which is also passed to the page as a parameter, although it is not used in these examples) in the following template:
+To change the locale, first create a component, `components/LocaleSwitcher.tsx`, for example:
 ```tsx
 "use client"; //Important!
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { translator } from "@/services/Translator";
 
+//You will only need to pass the "lang" parameter 
+//if you want to update this component's state after 
+//change the route!
 export function LocaleSwitcher({
   lang
 }: {
-  lang: string
+  lang?: string
 }) {
-  const content = translator.getContent("header");
+  //You have to retrieve the pathname!
   const pathname = usePathname();
 
   //is not a hook!
+  //const content = translator.getContent("header");
   //const isPtBr = translator.isLocale("pt-br");
 
   //can refresh!
-  const isPtBr = lang === "pt-br";
-
-  //So actually you will only need to pass the lang parameter if you want to update the component state after the route change!
+  //const isPtBr = lang === "pt-br";
 
   return (
     <ul>
       <li>
         <Link
-          id="pt-br"
-          tabIndex={isPtBr? -1:0}
           href={translator.getNewLocaleURL(pathname, "pt-br")}
         >
-          <button 
-            tabIndex={-1} 
-            disabled={isPtBr}
-          >
-            {content.pt}
-          </button>
+          Português
         </Link>
       </li>
       <li>
         <Link 
-          id="en-us"
           href={translator.getNewLocaleURL(pathname, "en-us")}
-          tabIndex={isPtBr? 0:-1}
         >
-          <button 
-            tabIndex={-1} 
-            disabled={!isPtBr}
-          >
-            {content.en}
-          </button>
+          English
         </Link>
       </li>
     </ul>
@@ -229,7 +217,7 @@ export default function RootLayout({
   return (
     <html lang={lang}>
       <header>
-        <LocaleSwitcher lang={lang}/>
+        <LocaleSwitcher/>
       </header>
       <body>
         {children}

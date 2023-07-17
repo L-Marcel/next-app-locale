@@ -13,10 +13,13 @@ export const enUs = {
       </p>,
       link: "Demonstrations!",
       time: `This was updated in: ${dayjs().format("MMMM D, YYYY - h A")} (server time)!`
+    },
+    route: {
+      link: "Go to another route"
     }
   },
-  header: {
-    pt: "Português",
-    en: "English"
+  "another-route": {
+    title: "Another route",
+    link: "Go back to home"
   }
 };
