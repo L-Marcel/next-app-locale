@@ -6,6 +6,7 @@ A simple way to create pages made for different locales in Next (with App Direct
   - [Language schema](#language-schema)
   - [Final settings](#final-settings)
 - [Changing the locale](#changing-the-locale)
+- [Navigation](#navigation)
 - [Demonstrations](#demonstrations)
 
 # Installation
@@ -225,6 +226,14 @@ export default function RootLayout({
     </html>
   )
 };
+```
+
+# Navigation
+To recover any route maintaining locality, you can use the function `getNewLocaleURL` with just one parameter:
+```tsx
+<Link href={translator.getNewLocaleURL("/another-route")}>
+  Another route
+</Link>
 ```
 
 # Demonstrations

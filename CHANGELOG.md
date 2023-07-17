@@ -1,5 +1,11 @@
 # next-app-locale
 
+## 1.0.6
+
+### Patch Changes
+
+- Updating readme
+
 ## 1.0.5
 
 ### Patch Changes
