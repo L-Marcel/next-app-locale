@@ -69,14 +69,17 @@ export class Translator<Schema> {
     return false;
   };
 
-  getNewLocaleURL(pathname: string, locale: string) {
+  getNewLocaleURL(pathname: string, locale: string = this._locale) {
     if(!pathname) {
       return "/";
     }
 
     const segments = pathname.split("/");
-    segments[1] = locale;
 
-    return segments.join("/");
+    return [
+      segments[0],
+      locale,
+      ...segments.slice(1)
+    ].join("/");
   };
 };
