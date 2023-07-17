@@ -1,5 +1,11 @@
 # next-app-locale
 
+## 1.0.5
+
+### Patch Changes
+
+- Removing bug on change a route with definied locale
+
 ## 1.0.4
 
 ### Patch Changes
