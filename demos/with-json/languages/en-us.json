@@ -5,10 +5,13 @@
       "content": "A simple way to create pages made for different locales in Next (with App Directory)!",
       "paragraph": "You can retrieve translations from .json, .ts, or even .tsx files! See more examples at:",
       "link": "Demonstrations!"
+    },
+    "route": {
+      "link": "Go to another route"
     }
   },
-  "header": {
-    "pt": "Português",
-    "en": "English"
+  "another-route": {
+    "title": "Another route",
+    "link": "Go back to home"
   }
 }

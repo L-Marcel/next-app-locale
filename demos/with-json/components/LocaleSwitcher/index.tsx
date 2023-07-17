@@ -9,10 +9,10 @@ export function LocaleSwitcher({
 }: {
   lang: string
 }) {
-  const content = translator.getContent("header");
   const pathname = usePathname();
 
   //is not a hook!
+  //const content = translator.getContent("header");
   //const isPtBr = translator.isLocale("pt-br");
 
   //can refresh!
@@ -33,7 +33,7 @@ export function LocaleSwitcher({
             className={style.button}
             disabled={isPtBr}
           >
-            {content.pt}
+            Português
           </button>
         </Link>
       </li>
@@ -48,7 +48,7 @@ export function LocaleSwitcher({
             disabled={!isPtBr}  
             className={style.button}
           >
-            {content.en}
+            English
           </button>
         </Link>
       </li>
