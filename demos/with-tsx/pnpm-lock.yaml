@@ -8,7 +8,7 @@ specifiers:
   eslint: 8.41.0
   eslint-config-next: 13.4.3
   next: 13.4.3
-  next-app-locale: ^1.0.1
+  next-app-locale: ^1.0.4
   react: 18.2.0
   react-dom: 18.2.0
   sass: ^1.63.4
@@ -22,7 +22,7 @@ dependencies:
   eslint: 8.41.0
   eslint-config-next: 13.4.3_opaykosi7ysrbskpnffskmbrki
   next: 13.4.3_63tktvor3xwbblcac5shyx4aca
-  next-app-locale: 1.0.1
+  next-app-locale: 1.0.4
   react: 18.2.0
   react-dom: 18.2.0_react@18.2.0
   sass: 1.63.6
@@ -1675,8 +1675,8 @@ packages:
     resolution: {integrity: sha512-OWND8ei3VtNC9h7V60qff3SVobHr996CTwgxubgyQYEpg290h9J0buyECNNJexkFm5sOajh5G116RYA1c8ZMSw==}
     dev: false
 
-  /next-app-locale/1.0.1:
-    resolution: {integrity: sha512-NpYHtONuSe9S8BGJDN4U0CrBxSeBbb9e77eXpMmMafYMmziQDVYPa0MlHpmztBrdDDkBi7hf37qu/OLBUZfbOw==}
+  /next-app-locale/1.0.4:
+    resolution: {integrity: sha512-BplBkUf5BoE2M7NdNeBuB2V3jxZ77v527/uDiFITkDo6GGiYvR+kPmG4hdwg6JJEisVFKGnAl6Yli1w8hSIhLA==}
     dev: false
 
   /next/13.4.3_63tktvor3xwbblcac5shyx4aca:

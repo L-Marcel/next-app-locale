@@ -1,4 +1,4 @@
-import styles from './page.module.scss'
+import styles from '../page.module.scss'
 import { translator } from '../../../services/Translator';
 import Link from 'next/link';
 
@@ -10,7 +10,7 @@ export default function Home() {
       <section>
         <h1>{content.title}</h1>
         <Link
-          href={translator.getNewLocaleURL("/", translator.getLocale())}
+          href={translator.getNewLocaleURL("/")}
         >{content.link}</Link>
       </section>
     </main>

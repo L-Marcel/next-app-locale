@@ -76,6 +76,14 @@ export class Translator<Schema> {
 
     const segments = pathname.split("/");
 
+    if(this._locales.includes(segments[1])){
+      return [
+        segments[0],
+        locale,
+        ...segments.slice(2)
+      ].join("/");
+    };
+
     return [
       segments[0],
       locale,

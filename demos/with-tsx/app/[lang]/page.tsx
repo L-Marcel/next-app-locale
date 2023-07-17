@@ -12,7 +12,7 @@ export default function Home() {
         {content.section.paragraph}
         <a href="https://github.com/L-Marcel/next-app-locale/tree/main/demos">{content.section.link}</a>
         <p>{content.section.time}</p>
-        <Link href={translator.getNewLocaleURL("/another-route", translator.getLocale())}>
+        <Link href={translator.getNewLocaleURL("/another-route")}>
           {content.route.link}
         </Link>
       </section>
