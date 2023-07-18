@@ -1,7 +1,7 @@
 {
   "name": "next-app-locale",
   "version": "1.0.6",
-  "description": "",
+  "description": "A simple way to create pages made for different locales in Next (with App Directory)!",
   "main": "dist/index.js",
   "tsup": {
     "entry": [
@@ -24,8 +24,8 @@
     "localization",
     "i18n"
   ],
-  "author": "",
-  "license": "ISC",
+  "author": "Lucas Marcel Silva de Brito (http://l-marcel.vercel.app/)",
+  "license": "MIT",
   "devDependencies": {
     "@changesets/cli": "^2.26.2",
     "@typescript-eslint/eslint-plugin": "^6.0.0",
