@@ -1,5 +1,11 @@
 # next-app-locale
 
+## 1.0.7
+
+### Patch Changes
+
+- Updating package.json
+
 ## 1.0.6
 
 ### Patch Changes
